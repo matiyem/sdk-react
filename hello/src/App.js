@@ -16,16 +16,3 @@ export default class App extends React.Component {
         );
     }
 }
-
-
-// export default function App() {
-//     return (
-//         <div>
-//             {/*<ErrorBoundary>*/}
-//                 <MySDK>
-//                 </MySDK>
-//             {/*</ErrorBoundary>*/}
-//         </div>
-//
-//     );
-// }
