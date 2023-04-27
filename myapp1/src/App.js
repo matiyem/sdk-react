@@ -64,11 +64,9 @@ export default class App extends React.Component {
                             <input type="text" className="form-control" name="username" value={balance.account}
                             />
                             <div style={{paddingTop: 20}}>
-                                <div className={'form-group' + (!balance.remaining ? 'has-error' : '')}>
                                     <label htmlFor="remaining">Remaining</label>
                                     <input type="text" className="form-control" name="remaining" value={balance.remaining}
                                            onChange={this.onChange}/>
-                                </div>
                             </div>
                             <div style={{paddingLeft: 50, paddingTop: 10}}>
                                 <Button label="submit" onClick={(e) => this.handleSubmit(e)}/>
